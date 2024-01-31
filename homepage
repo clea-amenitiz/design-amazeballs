@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dogs are Awesome</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            color: #333;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 80%;
+            max-width: 600px;
+        }
+        .header {
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .content {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .language-switcher {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .language-switcher button {
+            font-size: 1em;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Why Dogs are Awesome</div>
+        <div class="content">
+            <p>Dogs bring boundless joy and companionship to our lives. Their loyalty and unconditional love are unparalleled, making every day brighter.</p>
+            <p>Their ability to sense emotions and provide comfort during tough times is truly remarkable. Dogs also encourage us to be more active and social through walks and outdoor activities.</p>
+            <p>From their playful antics to their protective instincts, dogs enrich our lives in countless ways. They are not just pets, but family members that bring love and laughter into our homes.</p>
+        </div>
+        <div class="language-switcher">
+            <button onclick="switchLanguage('en')">English</button>
+            <button onclick="switchLanguage('es')">Spanish</button>
+        </div>
+    </div>
+
+    <script>
+        function switchLanguage(lang) {
+            // Placeholder for language switching functionality
+            // Currently, it does not load the Spanish content
+            alert("Switching language feature coming soon!");
+        }
+    </script>
+</body>
+</html>
